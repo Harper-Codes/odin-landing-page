@@ -78,6 +78,9 @@ button {
 .cards-container {
     display: flex;
     flex-direction: column;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+
 }
 
 .cards-title {
@@ -95,8 +98,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin: 50px;
+    text-align: center;
+    padding: 24px;
+    width: 300px;
 }
 
 .card img {
@@ -105,8 +109,50 @@ button {
     object-fit: cover;
     border: black 2px solid;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
 .card a {
+    font-size: 25px;
+
+}
+
+/* Quote */
+.quote-container {
+    background: rgb(218, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.quote {
+    align-self: center;
+    font-style: italic;
+}
+
+.quote span { /* "love" */
+    color: rgb(233, 97, 97);
+}
+
+.quote-container p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.quote-container p span { /* "Fever Dreams" */
+    font-style: italic;
+}
+
+
+/* Footer */
+.footer {
+    background: #e5e9bf;
+    text-align: center;
+}
+
+.footer h3 {
     font-size: 15px;
 }
