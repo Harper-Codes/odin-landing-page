@@ -15,11 +15,18 @@ a {
     text-decoration: none;
     margin: 5px;
     font-size: 20px;
+    font-family: monospace;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+a:hover {
+    color: #ffbf10;
 }
 
 /* Header */
 .header {
-    background: #e5e9bf;
+    background: #252525;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,7 +50,7 @@ a {
 
 /* Hero */
 .hero-container {
-    background: #e5e9bf;
+    background: #252525;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,31 +64,36 @@ a {
     flex-direction: column;
     padding: 10px 10px;
     margin-right: 100px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 2px;
 }
 
 button {
-    background: #4CAF50;
+    background: #ffbf10;
     box-sizing: border-box;
-    color: white;
-    box-shadow: 0 9px #999;
-    border: 2px solid #3f9b43;
+    color: wheat;
+    box-shadow: 5px 5px 2px rgb(0, 0, 0);
+    border: 2px solid #ebb010;
     border-radius: 10px;
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
+    text-shadow: 1px 1px 2px black;
     font-size: 16px;
+    font-family: monospace;
     align-self: flex-start;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 button:hover {
-    background: #2f7a33;
+    background: #ebb010;
 }
 
 button:active {
-    background: #2f7a33;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    background: #ebb010;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    transform: translate(2px, 2px);
 }
 
 .hero-img {
@@ -99,7 +111,6 @@ button:active {
     border-top: 2px black solid;
     border-bottom: 2px black solid;
     padding: 20px;
-
 }
 
 .cards-title {
@@ -131,9 +142,23 @@ button:active {
     box-shadow: 5px 5px 5px black;
 }
 
+.card img:hover {
+    width:  205px;
+    height: 205px;
+    object-fit: cover;
+    border: black 2px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px black;
+}
+
 .card a {
     font-size: 25px;
     font-family: monospace;
+    color: black;
+}
+
+.card a:hover {
+    color: #ffbf10;    
 }
 
 /* Quote */
@@ -186,8 +211,11 @@ button:active {
 .newsletter-content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 10px;
-    background: rgb(241, 243, 107);
+    background: #252525;
+    color: white;
+    text-shadow: 1px 1px 2px black;
     padding: 25px 125px;
     gap: 50px;
 }
@@ -202,22 +230,14 @@ button:active {
     flex-direction: column;
 }
 
-.sign-up {
-    background: #4CAF50;
-    border: 2px solid #3f9b43;
-    border-radius: 10px;
-    align-self: center;
-    padding: 10px 20px;
-
-}
-
-
 /* Footer */
 .footer {
-    background: #e5e9bf;
+    background: #252525;
     text-align: center;
 }
 
 .footer h3 {
     font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
