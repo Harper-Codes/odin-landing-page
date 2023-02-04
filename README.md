@@ -29,3 +29,6 @@ Source - Brandon Sloter, 2016 (Photographer)
 
 Features & More Image
 Source - Kristin Kesterson, 2017
+
+Background Newsletter Banner Image
+Source - Anna Lee, 2014

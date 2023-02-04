@@ -23,11 +23,16 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    color: white;
 }
 
 .logo {
     padding: 20px;
+}
+
+.logo img {
+    height: auto;
+    width: 300px;
 }
 
 .navbar {
@@ -52,23 +57,36 @@ a {
     flex-direction: column;
     padding: 10px 10px;
     margin-right: 100px;
-
 }
 
 button {
     background: #4CAF50;
     box-sizing: border-box;
     color: white;
-    border: none;
+    box-shadow: 0 9px #999;
+    border: 2px solid #3f9b43;
+    border-radius: 10px;
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     align-self: flex-start;
+    margin-top: 10px;
+}
 
+button:hover {
+    background: #2f7a33;
+}
+
+button:active {
+    background: #2f7a33;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .hero-img {
+    border: 2px solid black;
+    border-radius: 10px;
     height: auto;
     width: 400px;
 }
@@ -80,6 +98,7 @@ button {
     flex-direction: column;
     border-top: 2px black solid;
     border-bottom: 2px black solid;
+    padding: 20px;
 
 }
 
@@ -114,36 +133,82 @@ button {
 
 .card a {
     font-size: 25px;
-
+    font-family: monospace;
 }
 
 /* Quote */
 .quote-container {
-    background: rgb(218, 214, 214);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin: 0px;
-    padding: 20px;
-    font-size: 30px;
+    padding: 120px;
+    font-size: 40px;
+    background: url(/odin-landing-page/images/ag-banner-2.png) no-repeat center fixed;
+    background-size: cover;
+    border-bottom: 2px black solid;
+    color: white;
 }
 
 .quote {
     align-self: center;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
 .quote span { /* "love" */
     color: rgb(233, 97, 97);
 }
 
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
 .quote-container p {
-    text-align: center;
-    font-size: 15px;
+    align-self: flex-end;
+    font-size: 20px;
 }
 
 .quote-container p span { /* "Fever Dreams" */
     font-style: italic;
+}
+
+/* Newsletter */
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 0;
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: rgb(241, 243, 107);
+    padding: 25px 125px;
+    gap: 50px;
+}
+
+.newsletter-content h3, p {
+    align-self: flex-start;
+    margin: 0;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    background: #4CAF50;
+    border: 2px solid #3f9b43;
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px 20px;
+
 }
 
 
