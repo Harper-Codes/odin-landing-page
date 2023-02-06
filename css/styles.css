@@ -259,17 +259,6 @@ button:active {
     flex-wrap: row wrap;
 }
 
-.band-image-solo {
-    /* border: blue 2px solid; */
-    border-right: 5px solid black;
-    padding: 100px;
-    justify-self: flex-start;
-    min-height: 400px;
-    min-width: 200px; 
-    background: url(/odin-landing-page/images/solo-page-img.png) no-repeat center;
-}
-
-
 .band-summary-container {
     margin: 0;
     /* border: 2px green solid; */
@@ -326,6 +315,17 @@ button:active {
     list-style-type: none;
     letter-spacing: 3px;
     font-size: 15px;
+}
+
+/* Band Page Images */
+.band-image-solo {
+    /* border: blue 2px solid; */
+    border-right: 5px solid black;
+    padding: 100px;
+    justify-self: flex-start;
+    min-height: 400px;
+    min-width: 200px; 
+    background: url(/odin-landing-page/images/solo-page-img.png) no-repeat center;
 }
 
 .band-image-circa {
