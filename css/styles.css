@@ -13,6 +13,7 @@ ul {
 
 a {
     text-decoration: none;
+    padding: 10px;
     margin: 5px;
     font-size: 20px;
     font-family: monospace;
@@ -67,6 +68,7 @@ a:hover {
     color: white;
     text-shadow: 1px 1px 2px black;
     letter-spacing: 2px;
+    text-overflow: clip;
 }
 
 button {
@@ -240,4 +242,49 @@ button:active {
     font-size: 15px;
     color: white;
     text-shadow: 1px 1px 2px black;
+}
+
+/* Seperate Page Styles */
+
+.band-container {
+    display: flex;
+}
+
+.band-content {
+    display: flex;
+}
+
+.band-image-solo {
+    /* border: blue 2px solid; */
+    border-right: 5px solid black;
+    padding: 100px;
+    justify-self: flex-start;
+    min-height: 400px;
+    min-width: 200px;
+    background: url(/odin-landing-page/images/solo-page-img.png) no-repeat center;
+}
+
+.band-summary-container {
+    border: 2px green solid;
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+}
+
+.band-title {
+    border: 1px black solid;
+    text-align: center;
+}
+
+.band-overview {
+    display: flex;
+    justify-content: space-around;
+}
+
+.band-summary {
+    border: 1px yellow solid;
+}
+
+.band-projects {
+    border: 1px purple solid;
 }
