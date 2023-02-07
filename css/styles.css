@@ -303,18 +303,25 @@ button:active {
     flex-direction: column;
     align-items: center;
     padding: 20px 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: monospace;
 }
 
 .band-projects h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .band-projects ol {
     list-style-type: none;
     letter-spacing: 3px;
     font-size: 15px;
+}
+
+.band-summary ol {
+    list-style-type: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-align: left;
 }
 
 /* Band Page Images */
@@ -326,6 +333,8 @@ button:active {
     min-height: 400px;
     min-width: 200px; 
     background: url(/odin-landing-page/images/solo-page-img.png) no-repeat center;
+
+
 }
 
 .band-image-circa {
@@ -346,7 +355,9 @@ button:active {
     padding: 100px;
     justify-self: flex-start;
     min-height: 400px;
-    min-width: 200px; 
+    max-height: 500px;
+    min-width: 200px;
+    max-width: 300px; 
     background: url(/odin-landing-page/images/lsdunes-page-img.png) no-repeat center;
     background-size: cover;
 }
